@@ -1,0 +1,75 @@
+// Place all the styles related to the blog controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    font-family: 'Helvetica Neue', 'sans-serif';
+    background: image-url('!DSC_0067.jpg');
+    color:#000;
+    font-size: 30px;
+    background-size: cover ;
+}
+.outer{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #FFCC99;
+    margin-left: 20px;
+}
+.middle{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 60px;
+    font-family: Times ;
+
+}
+
+.inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 4px dashed #CCFFFF;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Gill Sans Extrabold";
+    color: #87CEEB;
+}
+
+.button{
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7; 
+    transition: 0.7s ;
+}
+
+#info{
+    background-color: #9ACD32;
+}
+
+#fb{
+    background-color:#1E90FF;
+}
+
+#insta{
+    background-color:#DA70D6;
+}
+
+.more{
+    color:white;
+    margin-left: 10px;
+}
+
+.info{
+    margin-left: 10px;
+    color: #D3D3D3;
+    font-size: 22px;
+}
+
+.about{
+    color: #B0C4DE;
+}
